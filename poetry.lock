@@ -42,18 +42,6 @@ dotenv = ["python-dotenv"]
 
 [[package]]
 category = "main"
-description = "http GET dict"
-name = "get"
-optional = false
-python-versions = "*"
-version = "2019.4.13"
-
-[package.dependencies]
-query_string = "*"
-setuptools = "*"
-
-[[package]]
-category = "main"
 description = "Various helpers to pass data to untrusted environments and back."
 name = "itsdangerous"
 optional = false
@@ -84,53 +72,6 @@ version = "1.1.1"
 
 [[package]]
 category = "main"
-description = "http POST dict"
-name = "post"
-optional = false
-python-versions = "*"
-version = "2019.4.13"
-
-[package.dependencies]
-setuptools = "*"
-
-[[package]]
-category = "main"
-description = "replace '__all__' with '@public.add' decorator"
-name = "public"
-optional = false
-python-versions = "*"
-version = "2019.4.13"
-
-[package.dependencies]
-setuptools = "*"
-
-[[package]]
-category = "main"
-description = "get url query string dict"
-name = "query-string"
-optional = false
-python-versions = "*"
-version = "2019.4.13"
-
-[package.dependencies]
-public = "*"
-setuptools = "*"
-
-[[package]]
-category = "main"
-description = "http REQUEST (GET+POST) dict"
-name = "request"
-optional = false
-python-versions = "*"
-version = "2019.4.13"
-
-[package.dependencies]
-get = "*"
-post = "*"
-setuptools = "*"
-
-[[package]]
-category = "main"
 description = "A modern CSS selector implementation for Beautiful Soup."
 name = "soupsieve"
 optional = false
@@ -150,7 +91,7 @@ dev = ["pytest", "pytest-timeout", "coverage", "tox", "sphinx", "pallets-sphinx-
 watchdog = ["watchdog"]
 
 [metadata]
-content-hash = "a3176ce62026894ec8e6768de718884e47f5e6981f049d9095167c0e4314a269"
+content-hash = "aaf0264b79b500bf4a5513ea40dce8532e5cd3ccb9e570fc0ee8b7487baed86e"
 python-versions = "^3.8"
 
 [metadata.files]
@@ -166,9 +107,6 @@ click = [
 flask = [
     {file = "Flask-1.1.2-py2.py3-none-any.whl", hash = "sha256:8a4fdd8936eba2512e9c85df320a37e694c93945b33ef33c89946a340a238557"},
     {file = "Flask-1.1.2.tar.gz", hash = "sha256:4efa1ae2d7c9865af48986de8aeb8504bf32c7f3d6fdc9353d34b21f4b127060"},
-]
-get = [
-    {file = "get-2019.4.13.tar.gz", hash = "sha256:688268840f923255932154a52bdd40ffac467de4126835c43846e9e6f112844c"},
 ]
 itsdangerous = [
     {file = "itsdangerous-1.1.0-py2.py3-none-any.whl", hash = "sha256:b12271b2047cb23eeb98c8b5622e2e5c5e9abd9784a153e9d8ef9cb4dd09d749"},
@@ -212,18 +150,6 @@ markupsafe = [
     {file = "MarkupSafe-1.1.1-cp38-cp38-win32.whl", hash = "sha256:596510de112c685489095da617b5bcbbac7dd6384aeebeda4df6025d0256a81b"},
     {file = "MarkupSafe-1.1.1-cp38-cp38-win_amd64.whl", hash = "sha256:e8313f01ba26fbbe36c7be1966a7b7424942f670f38e666995b88d012765b9be"},
     {file = "MarkupSafe-1.1.1.tar.gz", hash = "sha256:29872e92839765e546828bb7754a68c418d927cd064fd4708fab9fe9c8bb116b"},
-]
-post = [
-    {file = "post-2019.4.13.tar.gz", hash = "sha256:8fd57fb16f2c90ef4a76b04b8701c4db8ded170e53fac9514b5ea0272da5d36f"},
-]
-public = [
-    {file = "public-2019.4.13.tar.gz", hash = "sha256:e1436a8a99693a9849dfe40b9158f3837b7c309c163b2d3f5b8e9fce23876db1"},
-]
-query-string = [
-    {file = "query-string-2019.4.13.tar.gz", hash = "sha256:bb24e4f58849ef6f8219b2446c2bed076d86c97720ae9c3ae918625807394ca8"},
-]
-request = [
-    {file = "request-2019.4.13.tar.gz", hash = "sha256:6297b53c29a4928f7735034df2ab60aa1c7c044df989f605a81b7dc2d3713732"},
 ]
 soupsieve = [
     {file = "soupsieve-1.9.6-py2.py3-none-any.whl", hash = "sha256:feb1e937fa26a69e08436aad4a9037cd7e1d4c7212909502ba30701247ff8abd"},
